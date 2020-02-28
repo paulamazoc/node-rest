@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "start:http": "nodemon ./http-request/http-module.js",
-    "start:request": "nodemon ./http-request/request-library.js"
+    "start:request": "nodemon ./http-request/request-library.js",
+    "start:axios": "nodemon ./http-request/axios.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/paulamazoc/node-rest#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "nodemon": "^2.0.2",
     "request": "^2.81.0"
   }
