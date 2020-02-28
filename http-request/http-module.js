@@ -1,14 +1,14 @@
 const https = require('https');
 
-https.get('https://pokeapi.co/api/v2/pokemon/12', (resp) => {
+https.get('https://pokeapi.co/api/v2/pokemon/1', (resp) => {
   let data = '';
 
-  // A chunk of data has been recieved.
+  // Se van recibiendo los datos.
   resp.on('data', (chunk) => {
     data += chunk;
   });
 
-  // The whole response has been received. Print out the result.
+  // Cuando termino de recibir la respuesta, imprimo el resultado.
   resp.on('end', () => {
     console.log(JSON.parse(data).name);
   });
