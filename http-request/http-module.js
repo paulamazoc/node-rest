@@ -1,3 +1,5 @@
+// 02. Hacer una petición HTTP a través del módulo HTTP de node
+
 const https = require('https');
 
 https.get('https://pokeapi.co/api/v2/pokemon/1', (resp) => {
