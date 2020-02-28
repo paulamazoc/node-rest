@@ -8,7 +8,8 @@
     "start:http": "nodemon ./http-request/http-module.js",
     "start:request": "nodemon ./http-request/request-library.js",
     "start:axios": "nodemon ./http-request/axios.js",
-    "start:got": "nodemon ./http-request/got.js"
+    "start:got": "nodemon ./http-request/got.js",
+    "start:superagent": "nodemon ./http-request/superagent.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "axios": "^0.16.2",
     "got": "^7.1.0",
     "nodemon": "^2.0.2",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "superagent": "^3.5.2"
   }
 }
