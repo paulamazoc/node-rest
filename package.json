@@ -1,0 +1,20 @@
+{
+    "name": "noderest",
+    "version": "1.0.0",
+    "description": "Restful API with Node",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulamazoc/node-rest.git"
+    },
+    "author": "Paula Mazo",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/paulamazoc/node-rest/issues"
+    },
+    "homepage": "https://github.com/paulamazoc/node-rest#readme"
+  }
+  
