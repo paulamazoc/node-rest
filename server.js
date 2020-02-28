@@ -9,11 +9,11 @@ const server = http.createServer( (req,res) => {
     // Creamos rutas para manejar las diferentes peticiones
     if (req.url === '/') {
         // Le enviamos algo al cliente
-        res.write('Welcome to Node.js Community 🙌');
+        res.write('Welcome to Node.js Community!');
         res.end();
     }
 
-    if(req.url === '/api/names'){
+    if(req.url === '/api/numbers'){
         res.write(JSON.stringify([1, 2, 3])); // convertirá el array en un string utilizando la sintaxis JSON
         res.end();
      }
@@ -23,6 +23,6 @@ const server = http.createServer( (req,res) => {
 //     console.log('New connection');
 // });
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(3000, '127.0.0.1', () => {
+    console.log(`Server running at http://127.0.0.1:3000/`);
 }); 
